@@ -20,7 +20,7 @@
             :value="$route.query.navTheme || 'dark'"
             @change="e => handleSettingChange('navTheme', e.target.value)"
           >
-            <a-radio value="black">
+            <a-radio value="dark">
               黑色
             </a-radio>
             <a-radio value="light">
