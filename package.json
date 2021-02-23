@@ -4,16 +4,23 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:no-mock": "cross-env MOCK=none vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
     "ant-design-vue": "^1.7.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "echarts": "^5.0.2",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "nprogress": "^0.2.0",
+    "resize-detector": "^0.2.2",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
