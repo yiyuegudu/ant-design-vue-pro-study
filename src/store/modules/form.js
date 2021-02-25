@@ -1,9 +1,13 @@
-import router from "../index";
+import router from "../../router";
 import request from "../../utils/request";
 
 const state = {
   step: {
-    payAccount: "123456"
+    payAccount: "123456",
+    receiveAccount: {
+      type: "aliPay",
+      number: ""
+    }
   }
 };
 
@@ -29,7 +33,7 @@ const mutations = {
 };
 
 export default {
-  namespace: true,
+  namespaced: true,
   state,
   actions,
   mutations
