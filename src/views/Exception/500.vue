@@ -1,8 +1,8 @@
 <template>
-  <div>500</div>
+  <div><IconFont type="icon-icon-404" style="font-size:100px" /></div>
 </template>
 
 <script>
 export default {};
 </script>
-<style lang="stylus"></style>
+<style></style>

@@ -12,7 +12,12 @@
             'payAccount',
             {
               initialValue: step.payAccount,
-              rules: [{ required: true, message: '请输入付款账户' }]
+              rules: [
+                {
+                  required: true,
+                  message: '请输入付款账户'
+                }
+              ]
             }
           ]"
         />

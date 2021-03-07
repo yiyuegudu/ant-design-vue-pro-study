@@ -1,8 +1,18 @@
 <template>
-  <div>404</div>
+  <div style="text-align:center;">
+    <IconFont type="icon-icon-404" style="font-size:100px" />
+    <!-- <img :src="logo" alt="" /> -->
+  </div>
 </template>
 
 <script>
-export default {};
+// import logo from "@/assets/logo.svg";
+export default {
+  data() {
+    return {
+      // logo
+    };
+  }
+};
 </script>
-<style lang="stylus"></style>
+<style></style>
